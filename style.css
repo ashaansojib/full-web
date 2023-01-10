@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a,
+a:visited {
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+a.btn-primary {
+    background-color: bisque;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    color: black;
+}
+
+/* navigation style */
+nav.head-nav {
+    background-color: lightgreen;
+}
+
+.nav-items {
+    height: 56px;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.logo h1 {
+    font-size: 28px;
+    color: orangered;
+    text-transform: uppercase;
+}
+
+.nav-menu ul {
+    margin: 0;
+    list-style: none;
+}
+
+ul.flex-container li {
+    padding: 10px 15px;
+}
+
+ul.flex-container li a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul.flex-container li:hover {
+    background-color: tomato;
+    transition: 0.5s;
+}
+
+/* header banner */
+.head-banner {
+    background-image: url(images/aaa.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+}
+.head-items {
+    justify-content: space-between;
+    text-align: right;
+    height: 500px;
+}
+.head-info {
+    background-image: linear-gradient(to right, #40706c, transparent);
+    width: 450px;
+    padding: 20px;
+    text-align: left;
+    color: #fff;
+    animation-name: head-info;
+    animation-duration: 5s;
+}
+.head-info p {
+    color: darkkhaki;
+}
+.sliding {
+    padding: 20px;
+    background-image: linear-gradient(to left, #ffcaca, transparent);
+    width: 450px;
+    color: #fff;
+    animation-name: slide;
+    animation-duration: 5s;
+}
+@keyframes slide {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes head-info {
+    from{
+        transform: rotate(180deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
