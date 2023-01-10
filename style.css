@@ -189,7 +189,7 @@ section#service-area {
     font-size: 2em;
 }
 .image-box img {
-    transition: transform 0.5s ease;
+    transition: transform 0.3s ease-in;
     width: 250px;
     height: 250px;
 }
@@ -197,7 +197,7 @@ section#service-area {
     margin-left: 58px;
 }
 .image-box:hover img{
-    transform: scale(1);
+    transform: scale(0.6);
 }
 
 /* Animation Keyframes */
