@@ -40,6 +40,7 @@ a.btn-primary:hover{
     color: white;
 }
 
+
 /* navigation style */
 nav.head-nav {
     background-color: lightgreen;
@@ -152,6 +153,26 @@ section#tamplate1 {
     background-image: url(images/mouse.webp);
     background-repeat: no-repeat;
     animation: image-three 4s ease infinite alternate running;
+}
+
+/* Services Style area */
+section#service-area {
+    padding: 100px 0;
+}
+.service-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
+.service {
+    padding: 10px;
+}
+.service img {
+    width: 30%;
+}
+.section-title h1 {
+    text-align: center;
 }
 /* Animation Keyframes */
 @keyframes head-info {
