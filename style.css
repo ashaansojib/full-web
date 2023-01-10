@@ -79,6 +79,7 @@ ul.flex-container li:hover {
     background-image: url(images/aaa.png);
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
     height: 500px;
     background-size: cover;
 }
@@ -107,7 +108,7 @@ ul.flex-container li:hover {
     animation-name: slide;
     animation-duration: 5s;
 }
-@keyframes slide {
+@keyframes head-info {
     from{
         transform: scale(0);
     }
@@ -115,11 +116,34 @@ ul.flex-container li:hover {
         transform: scale(1);
     }
 }
-@keyframes head-info {
+@keyframes slide {
     from{
         transform: rotate(180deg);
     }
     to{
         transform: rotate(0deg);
+    }
+}
+/* template section one style */
+section#tamplate1 {
+    height: 500px;
+    background-color: #0fbf45;
+    background-image: url(images/headp.webp), url(images/mouse.webp), url(images/watch.webp);
+    background-repeat: no-repeat;
+    background-position: 500px, right, right bottom;
+    animation-name: template;
+    animation-duration: 4s;
+}
+.template-one-items {
+    width: 450px;
+    padding: 130px 10px;
+    color: #fff;
+}
+@keyframes template {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(200px);
     }
 }
