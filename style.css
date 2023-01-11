@@ -237,6 +237,23 @@ section#team-area {
 .people:hover .more-details{
     display: inline-block;
 }
+/* subscriber area css */
+section#subscribe-area {
+    padding-bottom: 30px;
+}
+.subcribe-tab {
+    border-radius: 20px;
+    width: 800px;
+    margin: 0 auto;
+    height: 215px;
+    background-position: center;
+    padding: 20px;
+    background-image: linear-gradient(to left, #538efb6b, #5c54fae0), url(images/watch.png);
+    color: #fff;
+}
+.subsscriber{
+    width: 550px;
+}
 /* Animation Keyframes */
 @keyframes head-info {
     /* header info animation */
