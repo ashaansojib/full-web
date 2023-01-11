@@ -171,7 +171,7 @@ section#service-area {
 .service img {
     width: 30%;
 }
-.section-title h1 {
+h1.section-title {
     text-align: center;
 }
 /* Featured images style */
@@ -232,10 +232,12 @@ section#team-area {
     top: 10px;
     padding: 10px;
     background-color: rebeccapurple;
-    display: none;
+    opacity: 0;
+    transition: all 0.5s ease-out;
 }
 .people:hover .more-details{
-    display: inline-block;
+    opacity: 1;
+    transform: scaleX(1);
 }
 /* subscriber area css */
 section#subscribe-area {
@@ -253,6 +255,25 @@ section#subscribe-area {
 }
 .subsscriber{
     width: 550px;
+}
+/* template two css */
+.template-two-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    height: 500px;
+}
+.template-two-info h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+.template-two-info h2 {
+    font-weight: bold;
+    color: blue;
+}
+.template-two-info h2 {
+    font-weight: bold;
+    color: blue;
 }
 /* Animation Keyframes */
 @keyframes head-info {
