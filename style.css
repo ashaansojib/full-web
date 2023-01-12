@@ -259,22 +259,66 @@ section#subscribe-area {
 /* template two css */
 .template-two-items {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 450px 520px;
     align-items: center;
-    height: 500px;
+    height: 600px;
 }
 .template-two-info h1 {
     font-size: 50px;
     font-weight: bold;
 }
-.template-two-info h2 {
-    font-weight: bold;
-    color: blue;
+.template-two img{
+    height: 650px;
 }
 .template-two-info h2 {
     font-weight: bold;
     color: blue;
 }
+.template-two-info h2 {
+    font-weight: bold;
+    color: blue;
+}
+/* footer area style */
+footer#main-footer {
+    padding-top: 50px;
+}
+.footer-head{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.featured-post{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item{
+    padding: 10px;
+}
+.post-thumbnail {
+    width: 150px;
+}
+.post-details {
+    width: 185px;
+}
+.post-details h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.footer-item span {
+    font-size: 32px;
+    padding-right: 10px;
+}
+.project-items {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.projects img {
+    height: 90%;
+    width: 100%;
+}
+
 /* Animation Keyframes */
 @keyframes head-info {
     /* header info animation */
