@@ -314,11 +314,32 @@ footer#main-footer {
     grid-gap: 10px;
     grid-template-columns: repeat(2, 1fr);
 }
+.projects {
+    position: relative;
+}
 .projects img {
     height: 90%;
     width: 100%;
 }
-
+.p-link i.fa-link {
+    font-size: 30px;
+    margin-top: 32px;
+}
+.p-link {
+    width: 158px;
+    background-image: linear-gradient(rgba(0, 255, 213, 0.411), rgba(255, 192, 203, 0.486));
+    text-align: center;
+    height: 79px;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    left: 3px;
+    top: 8px;
+}
+.projects:hover .p-link{
+    display: inline-block;
+    
+}
 /* Animation Keyframes */
 @keyframes head-info {
     /* header info animation */
